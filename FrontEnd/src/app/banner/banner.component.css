@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Google Font';
+    src: url('./../../assets/GoogleFonts/ChelseaMarket-Regular.ttf');
+}
+
+.containterCss {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: 'Google Font', 'Arial', serif;
+    font-size: 100px;
+  }
+

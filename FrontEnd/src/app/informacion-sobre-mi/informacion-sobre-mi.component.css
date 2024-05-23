@@ -1,0 +1,38 @@
+.row {
+    padding: 20px;
+}
+
+div {
+    background-color: rgb(1, 30, 65);
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+}
+
+#nombre {
+    font-weight: bold;
+    margin-top: 30%;
+}
+
+@media (min-width: 576px) {
+    #profilePhotos {
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 420px;
+    }
+}
+
+@media (max-width: 575px) {
+    #profilePhotos {
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 41%;
+        top: 650px;
+    }
+}
+
