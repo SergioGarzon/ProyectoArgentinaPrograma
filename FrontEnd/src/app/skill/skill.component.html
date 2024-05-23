@@ -1,14 +1,16 @@
 <div class="row">
-|   <h1>
+   <h1>
         Skill
     </h1>
 
-  <div class="col-sm-4 col-md-4 col-lg-4">
+  <div class="text-center col-sm-4 col-md-4 col-lg-4">
     <circle-progress
       [percent]="90"
       [radius]="100"
-      [title]="'HTML5'"
-      [backgroundColor]="'white'"
+      [imageSrc]="'../../assets/Images/UnityLogo.png'"
+      [showImage]="true"
+      [imageHeight]="75"
+      [imageWidth]="75"
       [showUnits]="false"
       [showSubtitle]="false"
       [outerStrokeWidth]="16"
@@ -18,13 +20,17 @@
       [animation]="true"
       [animationDuration]="600"
     ></circle-progress>
+    </div>
 
-    <circle-progress
+    <div class="text-center col-sm-4 col-md-4 col-lg-4">
+      <circle-progress
       [percent]="50"
       [radius]="100"
-      [title]="'CSS3'"
+      [imageSrc]="'../../assets/Images/css.png'"
+      [showImage]="true"
+      [imageHeight]="100"
+      [imageWidth]="75"
       [showUnits]="false"
-      [backgroundColor]="'white'"
       [showSubtitle]="false"
       [outerStrokeWidth]="16"
       [innerStrokeWidth]="8"
@@ -33,13 +39,17 @@
       [animation]="true"
       [animationDuration]="600"
     ></circle-progress>
-
+    </div>
+    
+    <div class="text-center col-sm-4 col-md-4 col-lg-4">
     <circle-progress
       [percent]="75"
       [radius]="100"
-      [title]="'JavaScript'"
+      [imageSrc]="'../../assets/Images/UnityLogo.png'"
+      [showImage]="true"
+      [imageHeight]="75"
+      [imageWidth]="75"
       [showUnits]="false"
-      [backgroundColor]="'white'"
       [showSubtitle]="false"
       [outerStrokeWidth]="16"
       [innerStrokeWidth]="8"
